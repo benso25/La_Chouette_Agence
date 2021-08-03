@@ -17,7 +17,7 @@ body {
     overflow-x: hidden;
 }
 
-a,
+/* a,
 button {
     transition: all .3s ease-in-out;
     outline: none ;
@@ -26,7 +26,7 @@ button {
 a:hover {
     text-decoration: none;
     cursor: pointer;
-}
+} */
 
 header{
     width: 100%;
@@ -37,9 +37,10 @@ header img{
 }
 
 header a{
-    margin-left: 37%;
+    margin-left: 33vw;
     margin-bottom: 10px;
 }
+
 
 .bloc_projet{
     height: 72vh;
@@ -57,7 +58,7 @@ header a{
 
 .bloc_projet-logo{
     position: fixed;
-    margin-left: 46%;
+    margin-left: 43vw;
     width: 130px;
     border: 1px solid #fff;
     border-radius: 100px;
@@ -65,7 +66,7 @@ header a{
 
 .bloc_projet-title{
     position: fixed;
-    margin-left: 36%;
+    margin-left: 34vw;
     margin-top: 10%;
     font-size: 42px;
     color: #fff;
@@ -79,7 +80,7 @@ header a{
     padding: 10px;
     padding-left: 15px;
     padding-right: 15px;
-    margin-left: 40%;
+    margin-left: 37vw;
     margin-top: 15%;
     /* background: linear-gradient(#ffd051, #f18b4f, #e2444f); */
     background: #ffd051;
@@ -348,6 +349,19 @@ footer{
 
 /********* Page Contact ******/
 
+.header_contact{
+    width: 100%;
+    margin-bottom: -4px;
+}
+.header_contact img{
+    height: 75px;
+}
+
+.header_contact a{
+    margin-left: 33vw;
+    margin-bottom: 10px;
+}
+
 .bloc_motivation{
     width: 100%;
     height: 293px;
@@ -358,8 +372,8 @@ footer{
 }
 
 .bloc_motivation-title{
-    margin-left: 37%;
-    padding-top: 32px;
+    margin-left: 36vw;
+    padding-top: 6vh;
 }
 
 .bloc_motivation-title h3{
@@ -371,8 +385,8 @@ footer{
 
 .bloc_motivation-text{
     color: black;
-    margin-left: -5%;
-    padding-top: 20px;
+    margin-left: 0vw;
+    padding-top: 2vh;
     text-align: center; 
     font-size: 20px;
 }
@@ -462,28 +476,39 @@ textarea{
 @media screen and (min-width: 1025px) and (max-width: 1416px){
     
     header a{
-        margin-left: 30%;
+        margin-left: 30vw;
+    }
+
+    .header_contact{
+        margin-bottom: -4px;
+    }
+
+    .header_contact a{
+        margin-left: 30vw;
     }
     
-
+    .bloc_projet-logo{
+        margin-left: 42vw;
+    }
     .bloc_projet-title{
-        margin-left: 34%;
-        margin-top: 13%;
+        margin-left: 32vw;
+        margin-top: 25vh;
     }
     
     .bloc_projet-btn{
-        margin-top: 19%;
-        margin-left: 40%;
+        margin-top: 37vh;
+        margin-left: 36vw;
     }
 
     .bloc_objectifs-text{
-        left: 302px;
-        width: 553px;
+        left: 27vw;
+        width: 55vw;
 
     }
 
     .bloc_portfolio-realisation{
-        width: 56%;
+        width: 59vw;
+        margin-left: 22vw;
     }
 
 
@@ -493,7 +518,7 @@ textarea{
 
 @media screen and (min-width: 769px) and (max-width: 1024px){
 
-    header a{
+    /* header a{
         margin-left: 28%;
     }
     
@@ -506,6 +531,31 @@ textarea{
     .bloc_projet-btn{
         margin-top: 25%;
         margin-left: 36%;
+    } */
+
+    header a{
+        margin-left: 30vw;
+    }
+
+    .header_contact{
+        margin-bottom: -4px;
+    }
+    
+    .header_contact a{
+        margin-left: 30vw;
+    }
+
+    .bloc_projet-logo{
+        margin-left: 42vw;
+    }
+    .bloc_projet-title{
+        margin-left: 32vw;
+        margin-top: 25vh;
+    }
+    
+    .bloc_projet-btn{
+        margin-top: 37vh;
+        margin-left: 36vw;
     }
 
     .bloc_objectifs{
@@ -516,9 +566,15 @@ textarea{
         width: auto;
     }
 
-    .bloc_objectifs-text{
+    /* .bloc_objectifs-text{
         left: 158px;
         width: 480px;
+
+    } */
+
+    .bloc_objectifs-text{
+        left: 27vw;
+        width: 55vw;
 
     }
 
@@ -528,9 +584,14 @@ textarea{
 
     }
 
-    .bloc_portfolio-realisation{
+    /* .bloc_portfolio-realisation{
         width: 77%;
         margin-left: 18%;
+    } */
+
+    .bloc_portfolio-realisation{
+        width: 59vw;
+        margin-left: 22vw;
     }
 
     .realisation-exemple{
@@ -544,7 +605,19 @@ textarea{
     .footer-text{
         margin-left: 37%;
     }
+
+    
+    /*****************contact**********************/
+
+    .bloc_motivation-title{
+        margin-left: 32vw;
+    }
+
+
 }
+
+
+
 
 
 
@@ -555,16 +628,23 @@ textarea{
         margin-bottom: 43px;
     }
 
-    header a{
-        margin-left: 26%;
+    .header_contact{
+        margin-bottom: -4px;
     }
+
+    /* header a{
+        margin-left: 26%;
+    } */
 
     header img{
         height: 56px;
     }
     
+    .header_contact img{
+        height: 56px;
+    }
 
-    .bloc_projet-title{
+    /* .bloc_projet-title{
         margin-left: 24%;
         margin-top: 25%;
         font-size: 36px;
@@ -574,7 +654,31 @@ textarea{
         margin-top: 35%;
         margin-left: 33%;
         font-size: 16px;
+    } */
+
+    header a{
+        margin-left: 18vw;
     }
+
+    .header_contact a{
+        margin-left: 21vw;
+    }
+    
+    .bloc_projet-logo{
+        margin-left: 38vw;
+    }
+    .bloc_projet-title{
+        margin-left: 21vw;
+        margin-top: 25vh;
+        font-size: 32px;
+    }
+    
+    .bloc_projet-btn{
+        margin-top: 35vh;
+        margin-left: 24vw;
+        font-size: 18px;
+    }
+
 
     .bloc_objectifs{
         margin-bottom: -468px;
@@ -584,9 +688,15 @@ textarea{
         width: auto;
     }
 
-    .bloc_objectifs-text{
+    /* .bloc_objectifs-text{
         left: 60px;
         width: 394px;
+
+    } */
+
+    .bloc_objectifs-text{
+        left: 27vw;
+        width: 55vw;
 
     }
 
@@ -605,9 +715,14 @@ textarea{
 
     }
 
-    .bloc_portfolio-realisation{
+    /* .bloc_portfolio-realisation{
         width: 77%;
         margin-left: 13%;
+    } */
+
+    .bloc_portfolio-realisation{
+        width: 59vw;
+        margin-left: 22vw;
     }
 
     .realisation-exemple{
@@ -639,6 +754,21 @@ textarea{
         padding: 5px;
     }
 
+     /*****************contact**********************/
+
+    .bloc_motivation-title{
+        margin-left: 17vw;
+    }
+
+    form{
+        width: 80vw;
+    }
+
+    .bloc_formulaire-btn button{
+        width: 26vw;
+        margin-left: -7vw;
+    }
+
 
 }
 
@@ -650,15 +780,23 @@ textarea{
         margin-bottom: 38px;
     }
 
-    header a{
-        margin-left: 5%;
+    .header_contact{
+        margin-bottom: -4px;
     }
+
+    /* header a{
+        margin-left: 5%;
+    } */
 
     header img{
         height: 53px;
     }
+
+    .header_contact img{
+        height: 53px;
+    }
     
-    .bloc_projet-logo{
+    /* .bloc_projet-logo{
         margin-left: 38%;
         width: 108px;
     }
@@ -673,7 +811,31 @@ textarea{
         margin-top: 50%;
         margin-left: 21%;
         font-size: 14px;
+    } */
+
+    header a{
+        margin-left: 10vw;
     }
+
+    .header_contact a{
+        margin-left: 10vw;
+    }
+    
+    .bloc_projet-logo{
+        margin-left: 35vw;
+    }
+    .bloc_projet-title{
+        margin-left: 21vw;
+        margin-top: 25vh;
+        font-size: 25px;
+    }
+    
+    .bloc_projet-btn{
+        margin-top: 35vh;
+        margin-left: 24vw;
+        font-size: 14px;
+    }
+
 
     .bloc_services-title h2{
         font-size: 18px;
@@ -696,18 +858,24 @@ textarea{
     }
 
     .bloc_objectifs{
-        margin-bottom: -547px;
+        margin-bottom: -492px;
     }
 
     .bloc_objectifs-img{
         width: auto;
     }
 
-    .bloc_objectifs-text{
+    /* .bloc_objectifs-text{
         left: 38px;
         top: -571px;
         width: 254px;
 
+
+    } */
+
+    .bloc_objectifs-text{
+        left: 5vw;
+        width: 91vw;
 
     }
 
@@ -726,10 +894,16 @@ textarea{
 
     }
 
-    .bloc_portfolio-realisation{
+    /* .bloc_portfolio-realisation{
         width: 77%;
         margin-left: 5%;
         margin-top: 2px;
+    } */
+
+    .bloc_portfolio-realisation{
+        width: 59vw;
+        margin-left: 8vw;
+        margin-top: 5vh;
     }
 
     .realisation-exemple{
@@ -741,13 +915,13 @@ textarea{
     }
 
     .realisation-title{
-        width: 152%;
+        width: 57vw;
         font-size: 15px;
     }
 
     .realisation-text{
         margin-top: -13px;
-        width: 152%;
+        width: 57vw;
         font-size: 13px;
     }
 
@@ -773,6 +947,33 @@ textarea{
 
     .footer-text{
         margin-left: 8%;
+    }
+
+    /*****************contact**********************/
+
+    .bloc_motivation-title{
+        margin-left: 19vw;
+    }
+
+    .bloc_motivation-title h3{
+       font-size: 20px;
+    }
+
+    .bloc_motivation-text{
+        font-size: 17px;
+    }
+
+    form{
+        width: 80vw;
+    }
+
+    .bloc_formulaire-btn button{
+        width: 31vw;
+        margin-left: -19vw;
+    }
+
+    label{
+        font-size: 13px;
     }
 
 
