@@ -1,0 +1,782 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background: #FFF;
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+*{
+    font-family: 'Helvetica';
+    box-sizing: border-box;
+}
+
+.page-container{
+    overflow-x: hidden;
+}
+
+a,
+button {
+    transition: all .3s ease-in-out;
+    outline: none ;
+}
+
+a:hover {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+header{
+    width: 100%;
+    margin-bottom: 50px;
+}
+header img{
+    height: 75px;
+}
+
+header a{
+    margin-left: 37%;
+    margin-bottom: 10px;
+}
+
+.bloc_projet{
+    height: 72vh;
+    width:100%;
+    }
+
+
+.bloc_projet-img{
+    position: fixed;
+    opacity: 0.9;
+    max-height: 650px;
+    margin-top: -43px;
+
+}
+
+.bloc_projet-logo{
+    position: fixed;
+    margin-left: 46%;
+    width: 130px;
+    border: 1px solid #fff;
+    border-radius: 100px;
+}
+
+.bloc_projet-title{
+    position: fixed;
+    margin-left: 36%;
+    margin-top: 10%;
+    font-size: 42px;
+    color: #fff;
+    text-shadow: 2px 2px 2px black;
+}
+
+.bloc_projet-btn{
+    position: fixed;
+    border: 1px solid  transparent;
+    border-radius: 80px;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 40%;
+    margin-top: 15%;
+    /* background: linear-gradient(#ffd051, #f18b4f, #e2444f); */
+    background: #ffd051;
+    font-size: 20px;
+    box-shadow: 1px 1px 1px 1px black;
+}
+
+.bloc_projet-btn:hover{
+    background: #f1b715;
+    transform: scale(1.1);
+    transition: ease-in-out 0.2s;
+}
+
+.bloc_projet-btn a{
+    text-decoration: none;
+    color: #303030;
+    font-weight: 600;
+   
+}
+
+.bloc_services{
+    position: sticky;
+    background-color: #FFF;
+    width: 100%;
+    margin-top: -70px;
+}
+
+.bloc_services span{
+    font-size: 91px;
+    color: rgb(17, 17, 97);
+}
+
+.bloc_services-title{
+    margin-left: 25%;
+    width: 50%;
+    text-align: center;
+}
+
+.bloc_services-title h2{
+    padding-top: 7%;
+    font-size: 25px;
+    font-weight: bold;
+    padding-bottom: 5%;
+}
+
+
+.bloc_services-icones{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 88%;
+    margin-left: 6%;
+
+}
+
+.icones{
+    width: 23.3%;
+}
+
+.icones_fig{
+    text-align: center;
+}
+
+.icones_title{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.icones_text{
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0.1rem;
+}
+
+.bloc_services-temoignage{
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 4%;
+}
+
+
+.temoignage{
+    font-style: italic;
+    font-weight: 400;
+    font-size: 19px;
+    text-align: center;
+}
+
+.temoignage-source{
+    text-align: center;
+    font-size: 16px;
+    padding-bottom: 2%;
+}
+
+.bloc_objectifs{
+    position: sticky;
+    margin-top: -16px;
+    margin-bottom: -436px;
+    width: 100%;
+}
+
+.bloc_objectifs-img{
+    width: 100%;
+    max-height: 580px;
+    object-fit: cover;
+}
+
+.bloc_objectifs-text{
+    position: relative;
+    bottom: 509px;
+    left: 448px;
+    width: 600px;
+    opacity: 0.8;
+    text-align: center;
+    padding: 40px;
+    border: 1px solid transparent;
+    background-color: #ffffff91;
+    box-shadow: 2px 2px 2px  black;
+}
+
+.bloc_objectifs-text h3{
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    text-shadow: 2px 2px 2px white;
+
+}
+
+.bloc_objectifs-text p{
+    font-size: 18px;
+    color: black;
+}
+
+.bloc_portfolio{
+    position: sticky;
+    width: 100%;
+    background-color: #fff;
+}
+
+.bloc_portfolio-text{
+    padding-top: 77px;
+    font-size: 27px;
+    font-weight: bold;
+    text-align: center;
+    width: 50%;
+    margin-left: 25%;
+}
+
+.bloc_portfolio-realisation{
+    width: 39%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-left: 31%;
+    margin-top: 55px;
+    padding-bottom: 37px;
+}
+
+.realisation-exemple{
+    width: 50%;
+}
+
+.realisation-exemple img{
+    max-width: 270px;
+    max-height: 270px;
+    box-shadow: 3px 3px 3px rgb(75, 67, 67);
+}
+
+.realisation-title{
+    width: 93%;
+    text-align: center;
+}
+
+.realisation-text{
+    width: 92%;
+    text-align: center;
+}
+
+.bloc_contact{
+    width: 100%;
+    height: 280px;
+}
+
+.bloc_contact img{
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+    position: sticky;
+}
+
+.bloc_contact-title{
+    position: sticky;
+    font-size: 23px;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    margin-top: -188px;
+    text-align: center;
+    margin-left: 17px;
+    
+}
+
+.bloc_contact-btn{
+    font-size: 24px;
+    width: 196px;
+    padding: 7px;
+    position: sticky;
+    margin-top: 34px;
+    margin-left: 44%;
+    border: 1px solid transparent;
+    border-radius: 80px;
+    /* background: linear-gradient(#ffd051, #f18b4f, #e2444f); */
+    background: #ffd051;
+    box-shadow: 1px 1px 1px 1px black;
+}
+
+.bloc_contact-btn:hover{
+    background: #f1b715;
+    transform: scale(1.1);
+    transition: ease-in-out 0.2s;
+}
+
+
+
+.bloc_contact-btn a{
+    text-decoration: none;
+    color: #303030;
+    font-weight: 600;
+    
+}
+
+
+footer{
+    position: sticky;
+    margin-top: -13px;
+    width: 100%;
+    height: 120px;
+    background-color: #303030;
+}
+
+.footer-text{
+    font-size: 13px;
+    padding-top: 13px;
+    margin-left: 41%;
+    color: white;
+}
+
+.footer-social{
+    width: 30%;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-left: 35%;
+}
+
+.social-icons a {
+    color: white;
+}
+
+.social-icons a:hover{
+    color:#ffd051;
+}
+
+
+/********* Page Contact ******/
+
+.bloc_motivation{
+    width: 100%;
+    height: 293px;
+    background: linear-gradient(#ffd051, #f18b4f);
+    opacity: 0.8;
+    margin-top: -38px;
+     
+}
+
+.bloc_motivation-title{
+    margin-left: 37%;
+    padding-top: 32px;
+}
+
+.bloc_motivation-title h3{
+    color:black;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 1px black;
+}
+
+.bloc_motivation-text{
+    color: black;
+    margin-left: -5%;
+    padding-top: 20px;
+    text-align: center; 
+    font-size: 20px;
+}
+
+.bloc_formulaire{
+    width: 100%;
+}
+
+form{
+  margin: 0 auto;
+  margin-top: 20px;
+  width: 650px;  
+  padding: 30px;
+  border: 2px solid black;
+  border-radius: 30px;
+}
+
+form div{
+    margin-top: 7px;
+    margin-left: 65px;
+    margin-bottom: 5px;
+}
+
+label{
+    display: inline-block;
+    width: 85%;
+    text-align: center;
+    
+}
+
+input, textarea{
+    font: 15px 'Helvetica';
+    width: 80%;
+    box-sizing: border-box;
+    border: 1px solid #303030;
+}
+
+input:focus, textarea:focus{
+    border-color: #f18b4f ;
+}
+
+textarea{
+    vertical-align: top;
+    height: 80px;
+}
+
+.bloc_formulaire-btn{
+    padding-left: 81px;
+}
+
+.bloc_formulaire-btn button{
+    width: 40%;
+    margin-left: 13%;
+    border: 1px solid transparent;
+    border-radius: 80px;
+    background: #ffd051;
+    box-shadow: 1px 1px 1px 1px black;
+    color: black;
+    font-weight: bold;
+    padding: 4px;
+    font-size: 15px;
+}
+
+.bloc_formulaire-btn button:hover{
+    background: #f1b715;
+    transform: scale(1.1);
+    transition: ease-in-out 0.2s;
+}
+
+.bloc_formulaire-contact{
+    margin-top: 10px;
+    margin-bottom: 28px;
+    text-align: center;
+}
+
+.bloc_formulaire-contact a{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+.bloc_formulaire-contact a:hover{
+    font-size: 18px;
+    transition: ease-in-out 0.2s;
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1416px){
+    
+    header a{
+        margin-left: 30%;
+    }
+    
+
+    .bloc_projet-title{
+        margin-left: 34%;
+        margin-top: 13%;
+    }
+    
+    .bloc_projet-btn{
+        margin-top: 19%;
+        margin-left: 40%;
+    }
+
+    .bloc_objectifs-text{
+        left: 302px;
+        width: 553px;
+
+    }
+
+    .bloc_portfolio-realisation{
+        width: 56%;
+    }
+
+
+    
+}
+
+
+@media screen and (min-width: 769px) and (max-width: 1024px){
+
+    header a{
+        margin-left: 28%;
+    }
+    
+    
+    .bloc_projet-title{
+        margin-left: 29%;
+        margin-top: 17%;
+    }
+    
+    .bloc_projet-btn{
+        margin-top: 25%;
+        margin-left: 36%;
+    }
+
+    .bloc_objectifs{
+        margin-bottom: -468px;
+    }
+
+    .bloc_objectifs-img{
+        width: auto;
+    }
+
+    .bloc_objectifs-text{
+        left: 158px;
+        width: 480px;
+
+    }
+
+    .bloc_portfolio-text{
+        padding-top: 10px;
+        margin-left: 28%;
+
+    }
+
+    .bloc_portfolio-realisation{
+        width: 77%;
+        margin-left: 18%;
+    }
+
+    .realisation-exemple{
+        width: 51%;
+    }
+
+    .bloc_contact-btn{
+        margin-left: 42%;
+    }
+
+    .footer-text{
+        margin-left: 37%;
+    }
+}
+
+
+
+
+@media screen and (min-width: 480px) and (max-width: 768px){
+
+    header{
+        margin-bottom: 43px;
+    }
+
+    header a{
+        margin-left: 26%;
+    }
+
+    header img{
+        height: 56px;
+    }
+    
+
+    .bloc_projet-title{
+        margin-left: 24%;
+        margin-top: 25%;
+        font-size: 36px;
+    }
+    
+    .bloc_projet-btn{
+        margin-top: 35%;
+        margin-left: 33%;
+        font-size: 16px;
+    }
+
+    .bloc_objectifs{
+        margin-bottom: -468px;
+    }
+
+    .bloc_objectifs-img{
+        width: auto;
+    }
+
+    .bloc_objectifs-text{
+        left: 60px;
+        width: 394px;
+
+    }
+
+    .bloc_objectifs-text h3{
+        font-size: 15px;
+    }
+
+    .bloc_objectifs-text p{
+        font-size: 13px;
+    }
+
+    .bloc_portfolio-text{
+        padding-top: 10px;
+        margin-left: 28%;
+        font-size: 24px;
+
+    }
+
+    .bloc_portfolio-realisation{
+        width: 77%;
+        margin-left: 13%;
+    }
+
+    .realisation-exemple{
+        width: 51%;
+    }
+
+    .realisation-exemple img{
+        max-width: 200px;
+    }
+
+    .realisation-title{
+        width: 105%;
+    }
+
+    .realisation-text{
+        margin-top: -13px;
+        width: 105%;
+    }
+
+    .bloc_contact-btn{
+        margin-left: 38%;
+    }
+
+    .footer-text{
+        margin-left: 31%;
+    }
+
+    .social-icons a{
+        padding: 5px;
+    }
+
+
+}
+
+
+
+@media screen and (min-width: 320px) and (max-width: 480px){
+
+    header{
+        margin-bottom: 38px;
+    }
+
+    header a{
+        margin-left: 5%;
+    }
+
+    header img{
+        height: 53px;
+    }
+    
+    .bloc_projet-logo{
+        margin-left: 38%;
+        width: 108px;
+    }
+
+    .bloc_projet-title{
+        margin-left: 10%;
+        margin-top: 34%;
+        font-size: 27px;
+    }
+    
+    .bloc_projet-btn{
+        margin-top: 50%;
+        margin-left: 21%;
+        font-size: 14px;
+    }
+
+    .bloc_services-title h2{
+        font-size: 18px;
+    }
+
+    .icones{
+        width: 50.3%;
+    }
+
+    .temoignage{
+        font-size: 16px;
+    }
+
+    .temoignage-source{
+        font-size: 14px;
+    }
+
+    .bloc_services span{
+        font-size: 55px;
+    }
+
+    .bloc_objectifs{
+        margin-bottom: -547px;
+    }
+
+    .bloc_objectifs-img{
+        width: auto;
+    }
+
+    .bloc_objectifs-text{
+        left: 38px;
+        top: -571px;
+        width: 254px;
+
+
+    }
+
+    .bloc_objectifs-text h3{
+        font-size: 15px;
+    }
+
+    .bloc_objectifs-text p{
+        font-size: 13px;
+    }
+
+    .bloc_portfolio-text{
+        padding-top: 10px;
+        margin-left: 28%;
+        font-size: 18px;
+
+    }
+
+    .bloc_portfolio-realisation{
+        width: 77%;
+        margin-left: 5%;
+        margin-top: 2px;
+    }
+
+    .realisation-exemple{
+        width: 51%;
+    }
+
+    .realisation-exemple img{
+        max-width: 200px;
+    }
+
+    .realisation-title{
+        width: 152%;
+        font-size: 15px;
+    }
+
+    .realisation-text{
+        margin-top: -13px;
+        width: 152%;
+        font-size: 13px;
+    }
+
+    .bloc_contact-title{
+        font-size: 15px;
+        width: 88%;
+        margin-left: 15px;
+    }
+
+    .bloc_contact-btn{
+        font-size: 17px;
+        width: 149px;
+        margin-left: 26%;
+    }
+
+    footer{
+        height: 140px;
+    }
+
+    .social-icons a{
+        padding: 5px;
+    }
+
+    .footer-text{
+        margin-left: 8%;
+    }
+
+
+}
+
+
+
