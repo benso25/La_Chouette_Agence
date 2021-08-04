@@ -17,16 +17,6 @@ body {
     overflow-x: hidden;
 }
 
-/* a,
-button {
-    transition: all .3s ease-in-out;
-    outline: none ;
-}
-
-a:hover {
-    text-decoration: none;
-    cursor: pointer;
-} */
 
 header{
     width: 100%;
@@ -518,21 +508,6 @@ textarea{
 
 @media screen and (min-width: 769px) and (max-width: 1024px){
 
-    /* header a{
-        margin-left: 28%;
-    }
-    
-    
-    .bloc_projet-title{
-        margin-left: 29%;
-        margin-top: 17%;
-    }
-    
-    .bloc_projet-btn{
-        margin-top: 25%;
-        margin-left: 36%;
-    } */
-
     header a{
         margin-left: 30vw;
     }
@@ -566,12 +541,6 @@ textarea{
         width: auto;
     }
 
-    /* .bloc_objectifs-text{
-        left: 158px;
-        width: 480px;
-
-    } */
-
     .bloc_objectifs-text{
         left: 27vw;
         width: 55vw;
@@ -583,11 +552,6 @@ textarea{
         margin-left: 28%;
 
     }
-
-    /* .bloc_portfolio-realisation{
-        width: 77%;
-        margin-left: 18%;
-    } */
 
     .bloc_portfolio-realisation{
         width: 59vw;
@@ -632,10 +596,6 @@ textarea{
         margin-bottom: -4px;
     }
 
-    /* header a{
-        margin-left: 26%;
-    } */
-
     header img{
         height: 56px;
     }
@@ -643,18 +603,6 @@ textarea{
     .header_contact img{
         height: 56px;
     }
-
-    /* .bloc_projet-title{
-        margin-left: 24%;
-        margin-top: 25%;
-        font-size: 36px;
-    }
-    
-    .bloc_projet-btn{
-        margin-top: 35%;
-        margin-left: 33%;
-        font-size: 16px;
-    } */
 
     header a{
         margin-left: 18vw;
@@ -679,7 +627,6 @@ textarea{
         font-size: 18px;
     }
 
-
     .bloc_objectifs{
         margin-bottom: -468px;
     }
@@ -687,12 +634,6 @@ textarea{
     .bloc_objectifs-img{
         width: auto;
     }
-
-    /* .bloc_objectifs-text{
-        left: 60px;
-        width: 394px;
-
-    } */
 
     .bloc_objectifs-text{
         left: 27vw;
@@ -714,11 +655,6 @@ textarea{
         font-size: 24px;
 
     }
-
-    /* .bloc_portfolio-realisation{
-        width: 77%;
-        margin-left: 13%;
-    } */
 
     .bloc_portfolio-realisation{
         width: 59vw;
@@ -784,10 +720,6 @@ textarea{
         margin-bottom: -4px;
     }
 
-    /* header a{
-        margin-left: 5%;
-    } */
-
     header img{
         height: 53px;
     }
@@ -796,22 +728,6 @@ textarea{
         height: 53px;
     }
     
-    /* .bloc_projet-logo{
-        margin-left: 38%;
-        width: 108px;
-    }
-
-    .bloc_projet-title{
-        margin-left: 10%;
-        margin-top: 34%;
-        font-size: 27px;
-    }
-    
-    .bloc_projet-btn{
-        margin-top: 50%;
-        margin-left: 21%;
-        font-size: 14px;
-    } */
 
     header a{
         margin-left: 10vw;
@@ -865,13 +781,6 @@ textarea{
         width: auto;
     }
 
-    /* .bloc_objectifs-text{
-        left: 38px;
-        top: -571px;
-        width: 254px;
-
-
-    } */
 
     .bloc_objectifs-text{
         left: 5vw;
@@ -894,11 +803,6 @@ textarea{
 
     }
 
-    /* .bloc_portfolio-realisation{
-        width: 77%;
-        margin-left: 5%;
-        margin-top: 2px;
-    } */
 
     .bloc_portfolio-realisation{
         width: 59vw;
