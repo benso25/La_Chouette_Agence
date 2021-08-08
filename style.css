@@ -415,7 +415,7 @@ input, textarea{
 }
 
 input:focus, textarea:focus{
-    border-color: #f18b4f ;
+    border-color :#f18b4f ;
 }
 
 textarea{
